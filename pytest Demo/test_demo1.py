@@ -1,2 +1,5 @@
-def test_firstprogram():
+def test_program_one():
     print("Hello")
+
+def test_secondprogram():
+    print("Rajamegam")

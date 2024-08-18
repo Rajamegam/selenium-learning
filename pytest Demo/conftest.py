@@ -17,3 +17,8 @@ def once():
 def load_data():
     print(" the value will be passed here for user creation")
     return ["rajamegam", "govindaraj", "rajamegam7@gmail.com"]
+
+
+@pytest.fixture(params=["chrome", "firefox", "IE"])
+def datasets(request):
+    return request.param

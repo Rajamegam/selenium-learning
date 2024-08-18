@@ -13,4 +13,5 @@ def test_secondprogram():
 def test_thirdprogram():
     print("Rajamegam")
 
-
+def test_data_set(datasets):
+    print(datasets)

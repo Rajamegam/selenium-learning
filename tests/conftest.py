@@ -33,8 +33,8 @@ def setup(request):  # invoking the browser
     driver.get("https://rahulshettyacademy.com/angularpractice/")
     driver.maximize_window()
     request.cls.driver = driver
-    """here the cls.driver--> represents the driver in the class file of the test file. here we are assigning the
-        local driver to the driver in the class level
+    """here the cls.driver--> represents the driver in the class name of the test file. here we are assigning the
+        local driver to the driver in the class level of the test file.
     """
     yield
     driver.close()

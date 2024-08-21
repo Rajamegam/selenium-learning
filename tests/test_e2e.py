@@ -12,7 +12,6 @@ from Utitlities.BaseClass import BaseClass
 #@pytest.mark.usefixtures("setup")
 class TestOne(BaseClass):
 
-
     def test_e2e(self):
 
         self.driver.implicitly_wait(4)

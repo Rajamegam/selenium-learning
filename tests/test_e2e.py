@@ -7,23 +7,33 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 from Utitlities.BaseClass import BaseClass
+from pageObjects.CheckoutPage import CheckoutPage
+from pageObjects.HomePage import HomePage
 
 
-#@pytest.mark.usefixtures("setup")
+# @pytest.mark.usefixtures("setup")
 class TestOne(BaseClass):
 
     def test_e2e(self):
+        # Clicking the shop button in the home page
+        homepage = HomePage(self.driver)
+        homepage.shopItems().click()
 
         self.driver.implicitly_wait(4)
-        """self.driver---> to access the class variable in the method """
-        self.driver.find_element(By.CSS_SELECTOR, "a[href*='shop']").click()
-        product_name = self.driver.find_elements(By.XPATH, "//div[@class='card h-100']")
+
+        # get the product names in the product list page
+        checkout = CheckoutPage(self.driver)
+        product_name = checkout.getProductNames()
+
+        # adding the product to the cart if the product name is "Blackberry"
         for i in product_name:
             product = i.find_element(By.XPATH, "div/h4/a").text
             if product == "Blackberry":
-                i.find_element(By.XPATH, "div/button").click()
+                checkout.cartload().click()
 
-        self.driver.find_element(By.CSS_SELECTOR, "a[class*='btn-primary']").click()
+        # clicking the checkout button
+        checkout.checkOutButton().click()
+
         self.driver.find_element(By.CSS_SELECTOR, ".btn-success").click()
         self.driver.find_element(By.ID, "country").send_keys("ind")
         wait = WebDriverWait(self.driver, 10)

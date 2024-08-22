@@ -27,14 +27,17 @@ class TestOne(BaseClass):
 
         # adding the product to the cart if the product name is "Blackberry"
         for i in product_name:
-            product = i.find_element(By.XPATH, "div/h4/a").text
+            product= checkout.productText().text
+            #product = i.find_element(By.XPATH, "div/h4/a").text
             if product == "Blackberry":
                 checkout.cartload().click()
 
         # clicking the checkout button
         checkout.checkOutButton().click()
 
-        self.driver.find_element(By.CSS_SELECTOR, ".btn-success").click()
+        #clicking the checkout button in the cart page
+        checkout.cart().click()
+
         self.driver.find_element(By.ID, "country").send_keys("ind")
         wait = WebDriverWait(self.driver, 10)
         wait.until(expected_conditions.presence_of_element_located((By.LINK_TEXT, "India")))

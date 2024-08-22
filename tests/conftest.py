@@ -5,8 +5,6 @@ from selenium import webdriver
     Below is the syntax to send browser name in the command 
     'browser_name' --> is a key where we need to pass the value to it(either it is a chrome or firefox
 """
-
-
 def pytest_addoption(parser):
     parser.addoption(
         "--browser_name", action="store", default="chrome"
@@ -17,7 +15,6 @@ def pytest_addoption(parser):
     '--browser_name' is a key and we need to pass the browser name as a value
     if we dont specify browser name in command line, it will default run on "chrome" browser 
 """
-
 
 @pytest.fixture(scope="class")
 def setup(request):  # invoking the browser

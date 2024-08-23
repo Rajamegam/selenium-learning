@@ -18,12 +18,11 @@ class TestOne(BaseClass):
     def test_e2e(self):
         # Clicking the shop button in the home page
         homepage = HomePage(self.driver)
-        homepage.shopItems().click()
+        checkout = homepage.shopItems()
 
         self.driver.implicitly_wait(4)
 
         # get the product names in the product list page
-        checkout = CheckoutPage(self.driver)
         product_name = checkout.getProductNames()
 
         # adding the product to the cart if the product name is "Blackberry"
@@ -37,9 +36,7 @@ class TestOne(BaseClass):
         checkout.checkOutButton().click()
 
         # clicking the checkout button in the cart page
-        checkout.cart().click()
-
-        confirm_page = ConfirmPage(self.driver)
+        confirm_page=checkout.cart()
 
         confirm_page.country_value().send_keys("ind")
         wait = WebDriverWait(self.driver, 10)

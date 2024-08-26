@@ -39,8 +39,9 @@ class TestOne(BaseClass):
         confirm_page=checkout.cart()
 
         confirm_page.country_value().send_keys("ind")
-        wait = WebDriverWait(self.driver, 10)
-        wait.until(expected_conditions.presence_of_element_located((By.LINK_TEXT, "India")))
+        # wait = WebDriverWait(self.driver, 10)
+        # wait.until(expected_conditions.presence_of_element_located((By.LINK_TEXT, "India")))
+        self.verify_link_presence("India")
         confirm_page.link_text_value().click()
         confirm_page.confirm_checkbox().click()
         confirm_page.purchase().click()

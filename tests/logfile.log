@@ -1,0 +1,81 @@
+2024-08-26 14:47:16,217: INFO: Utitlities.BaseClass: THis is a info error
+2024-08-26 14:47:16,217: WARNING: Utitlities.BaseClass: This is a warning error
+2024-08-26 14:47:16,217: ERROR: Utitlities.BaseClass: This is a error
+2024-08-26 14:47:16,218: CRITICAL: Utitlities.BaseClass: This is a critical error
+2024-08-26 14:47:16,218: INFO: Utitlities.BaseClass: Entering the name
+2024-08-26 14:47:16,404: INFO: Utitlities.BaseClass: Entering the email
+2024-08-26 14:47:16,571: INFO: Utitlities.BaseClass: Entering the password
+2024-08-26 14:47:16,702: INFO: Utitlities.BaseClass: selecting the checkbox
+2024-08-26 14:47:16,772: INFO: Utitlities.BaseClass: selecting the gender
+2024-08-26 14:47:17,180: INFO: Utitlities.BaseClass: THis is a info error
+2024-08-26 14:47:17,180: INFO: Utitlities.BaseClass: THis is a info error
+2024-08-26 14:47:17,181: WARNING: Utitlities.BaseClass: This is a warning error
+2024-08-26 14:47:17,181: WARNING: Utitlities.BaseClass: This is a warning error
+2024-08-26 14:47:17,182: ERROR: Utitlities.BaseClass: This is a error
+2024-08-26 14:47:17,182: ERROR: Utitlities.BaseClass: This is a error
+2024-08-26 14:47:17,182: CRITICAL: Utitlities.BaseClass: This is a critical error
+2024-08-26 14:47:17,182: CRITICAL: Utitlities.BaseClass: This is a critical error
+2024-08-26 14:47:17,182: INFO: Utitlities.BaseClass: Entering the name
+2024-08-26 14:47:17,182: INFO: Utitlities.BaseClass: Entering the name
+2024-08-26 14:47:17,271: INFO: Utitlities.BaseClass: Entering the email
+2024-08-26 14:47:17,271: INFO: Utitlities.BaseClass: Entering the email
+2024-08-26 14:47:17,396: INFO: Utitlities.BaseClass: Entering the password
+2024-08-26 14:47:17,396: INFO: Utitlities.BaseClass: Entering the password
+2024-08-26 14:47:17,471: INFO: Utitlities.BaseClass: selecting the checkbox
+2024-08-26 14:47:17,471: INFO: Utitlities.BaseClass: selecting the checkbox
+2024-08-26 14:47:17,512: INFO: Utitlities.BaseClass: selecting the gender
+2024-08-26 14:47:17,512: INFO: Utitlities.BaseClass: selecting the gender
+2024-08-26 14:48:44,340: INFO: Utitlities.BaseClass: THis is a info error
+2024-08-26 14:48:44,341: WARNING: Utitlities.BaseClass: This is a warning error
+2024-08-26 14:48:44,341: ERROR: Utitlities.BaseClass: This is a error
+2024-08-26 14:48:44,341: CRITICAL: Utitlities.BaseClass: This is a critical error
+2024-08-26 14:48:44,341: INFO: Utitlities.BaseClass: Entering the nameRajamgam
+2024-08-26 14:48:44,554: INFO: Utitlities.BaseClass: Entering the email
+2024-08-26 14:48:44,756: INFO: Utitlities.BaseClass: Entering the password
+2024-08-26 14:48:44,897: INFO: Utitlities.BaseClass: selecting the checkbox
+2024-08-26 14:48:44,969: INFO: Utitlities.BaseClass: selecting the gender
+2024-08-26 14:48:45,416: INFO: Utitlities.BaseClass: THis is a info error
+2024-08-26 14:48:45,416: INFO: Utitlities.BaseClass: THis is a info error
+2024-08-26 14:48:45,416: WARNING: Utitlities.BaseClass: This is a warning error
+2024-08-26 14:48:45,416: WARNING: Utitlities.BaseClass: This is a warning error
+2024-08-26 14:48:45,416: ERROR: Utitlities.BaseClass: This is a error
+2024-08-26 14:48:45,416: ERROR: Utitlities.BaseClass: This is a error
+2024-08-26 14:48:45,416: CRITICAL: Utitlities.BaseClass: This is a critical error
+2024-08-26 14:48:45,416: CRITICAL: Utitlities.BaseClass: This is a critical error
+2024-08-26 14:48:45,417: INFO: Utitlities.BaseClass: Entering the namePriya
+2024-08-26 14:48:45,417: INFO: Utitlities.BaseClass: Entering the namePriya
+2024-08-26 14:48:45,501: INFO: Utitlities.BaseClass: Entering the email
+2024-08-26 14:48:45,501: INFO: Utitlities.BaseClass: Entering the email
+2024-08-26 14:48:45,599: INFO: Utitlities.BaseClass: Entering the password
+2024-08-26 14:48:45,599: INFO: Utitlities.BaseClass: Entering the password
+2024-08-26 14:48:45,678: INFO: Utitlities.BaseClass: selecting the checkbox
+2024-08-26 14:48:45,678: INFO: Utitlities.BaseClass: selecting the checkbox
+2024-08-26 14:48:45,721: INFO: Utitlities.BaseClass: selecting the gender
+2024-08-26 14:48:45,721: INFO: Utitlities.BaseClass: selecting the gender
+2024-08-26 14:51:16,127: INFO: Utitlities.BaseClass: THis is a info error
+2024-08-26 14:51:16,128: WARNING: Utitlities.BaseClass: This is a warning error
+2024-08-26 14:51:16,128: ERROR: Utitlities.BaseClass: This is a error
+2024-08-26 14:51:16,128: CRITICAL: Utitlities.BaseClass: This is a critical error
+2024-08-26 14:51:16,129: INFO: Utitlities.BaseClass: Entering the nameRajamgam
+2024-08-26 14:51:16,310: INFO: Utitlities.BaseClass: Entering the email
+2024-08-26 14:51:16,516: INFO: Utitlities.BaseClass: Entering the password
+2024-08-26 14:51:16,648: INFO: Utitlities.BaseClass: selecting the checkbox
+2024-08-26 14:51:16,723: INFO: Utitlities.BaseClass: selecting the gender
+2024-08-26 14:51:17,171: INFO: Utitlities.BaseClass: THis is a info error
+2024-08-26 14:51:17,171: INFO: Utitlities.BaseClass: THis is a info error
+2024-08-26 14:51:17,171: WARNING: Utitlities.BaseClass: This is a warning error
+2024-08-26 14:51:17,171: WARNING: Utitlities.BaseClass: This is a warning error
+2024-08-26 14:51:17,171: ERROR: Utitlities.BaseClass: This is a error
+2024-08-26 14:51:17,171: ERROR: Utitlities.BaseClass: This is a error
+2024-08-26 14:51:17,171: CRITICAL: Utitlities.BaseClass: This is a critical error
+2024-08-26 14:51:17,171: CRITICAL: Utitlities.BaseClass: This is a critical error
+2024-08-26 14:51:17,171: INFO: Utitlities.BaseClass: Entering the namePriya
+2024-08-26 14:51:17,171: INFO: Utitlities.BaseClass: Entering the namePriya
+2024-08-26 14:51:17,255: INFO: Utitlities.BaseClass: Entering the email
+2024-08-26 14:51:17,255: INFO: Utitlities.BaseClass: Entering the email
+2024-08-26 14:51:17,350: INFO: Utitlities.BaseClass: Entering the password
+2024-08-26 14:51:17,350: INFO: Utitlities.BaseClass: Entering the password
+2024-08-26 14:51:17,423: INFO: Utitlities.BaseClass: selecting the checkbox
+2024-08-26 14:51:17,423: INFO: Utitlities.BaseClass: selecting the checkbox
+2024-08-26 14:51:17,464: INFO: Utitlities.BaseClass: selecting the gender
+2024-08-26 14:51:17,464: INFO: Utitlities.BaseClass: selecting the gender

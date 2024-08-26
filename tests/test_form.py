@@ -10,13 +10,19 @@ from pageObjects.HomePage import HomePage
 
 class TestFormSubmission(BaseClass):
     def test_form_submission(self, getDataByDict):
+        log=self.getlogger()
         homepage = HomePage(self.driver)
+        log.info("Entering the name" +getDataByDict["name"] )
         homepage.name().send_keys(getDataByDict["name"])
+        log.info("Entering the email")
         homepage.email().send_keys(getDataByDict["email"])
+        log.info("Entering the password")
         homepage.password().send_keys(getDataByDict["password"])
+        log.info("selecting the checkbox")
         homepage.checkbox().click()
         # gender_dropdown = Select(homepage.gender())
         # gender_dropdown.select_by_visible_text("Male")
+        log.info("selecting the gender")
         self.select_option_by_text(homepage.gender(), getDataByDict["gender"])
         homepage.radio_button().click()
         homepage.birthday().send_keys(getDataByDict["DOB"])

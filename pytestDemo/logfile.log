@@ -1,0 +1,8 @@
+2024-08-18 16:28:05,992: INFO: test_logging: THis is a info error
+2024-08-18 16:28:05,992: WARNING: test_logging: This is a warning error
+2024-08-18 16:28:05,992: ERROR: test_logging: This is a error
+2024-08-18 16:28:05,992: CRITICAL: test_logging: This is a critical error
+2024-09-12 10:49:53,639: INFO: pytestDemo.test_logging: THis is a info error
+2024-09-12 10:49:53,639: WARNING: pytestDemo.test_logging: This is a warning error
+2024-09-12 10:49:53,639: ERROR: pytestDemo.test_logging: This is a error
+2024-09-12 10:49:53,639: CRITICAL: pytestDemo.test_logging: This is a critical error

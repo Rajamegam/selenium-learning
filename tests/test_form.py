@@ -10,7 +10,7 @@ from pageObjects.HomePage import HomePage
 
 class TestFormSubmission(BaseClass):
     def test_form_submission(self, getDataByDict):
-        log=self.getlogger()
+        log=self.getLogger()
         homepage = HomePage(self.driver)
         log.info("Entering the name" +getDataByDict["name"] )
         homepage.name().send_keys(getDataByDict["name"])

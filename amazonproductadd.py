@@ -28,7 +28,7 @@ search_list = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "
 # Iterate over each product in the search results
 for product in search_list:
     product_name_element = product.find_element(By.XPATH,
-                                                ".//div[@class='a-section a-spacing-small puis-padding-left-small puis-padding-right-small']/div/h2/a/span")
+                                                "//div[@class='a-section a-spacing-small puis-padding-left-small puis-padding-right-small']/div/h2/a/span")
     product_name = product_name_element.text
     actual_product_list.append(product_name)
 
